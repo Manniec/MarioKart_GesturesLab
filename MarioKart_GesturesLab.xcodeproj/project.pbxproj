@@ -1,0 +1,598 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B65CCE6E25F40A1800C3E978 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B65CCE6D25F40A1800C3E978 /* AppDelegate.swift */; };
+		B65CCE7025F40A1800C3E978 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B65CCE6F25F40A1800C3E978 /* SceneDelegate.swift */; };
+		B65CCE7225F40A1800C3E978 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B65CCE7125F40A1800C3E978 /* ViewController.swift */; };
+		B65CCE7525F40A1800C3E978 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B65CCE7325F40A1800C3E978 /* Main.storyboard */; };
+		B65CCE7725F40A2300C3E978 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B65CCE7625F40A2300C3E978 /* Assets.xcassets */; };
+		B65CCE7A25F40A2300C3E978 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B65CCE7825F40A2300C3E978 /* LaunchScreen.storyboard */; };
+		B65CCE8525F40A2400C3E978 /* MarioKart_GesturesLabTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B65CCE8425F40A2400C3E978 /* MarioKart_GesturesLabTests.swift */; };
+		B65CCE9025F40A2400C3E978 /* MarioKart_GesturesLabUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B65CCE8F25F40A2400C3E978 /* MarioKart_GesturesLabUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B65CCE8125F40A2400C3E978 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B65CCE6225F40A1800C3E978 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B65CCE6925F40A1800C3E978;
+			remoteInfo = MarioKart_GesturesLab;
+		};
+		B65CCE8C25F40A2400C3E978 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B65CCE6225F40A1800C3E978 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B65CCE6925F40A1800C3E978;
+			remoteInfo = MarioKart_GesturesLab;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B65CCE6A25F40A1800C3E978 /* MarioKart_GesturesLab.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MarioKart_GesturesLab.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B65CCE6D25F40A1800C3E978 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B65CCE6F25F40A1800C3E978 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		B65CCE7125F40A1800C3E978 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B65CCE7425F40A1800C3E978 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B65CCE7625F40A2300C3E978 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B65CCE7925F40A2300C3E978 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B65CCE7B25F40A2300C3E978 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B65CCE8025F40A2400C3E978 /* MarioKart_GesturesLabTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MarioKart_GesturesLabTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B65CCE8425F40A2400C3E978 /* MarioKart_GesturesLabTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarioKart_GesturesLabTests.swift; sourceTree = "<group>"; };
+		B65CCE8625F40A2400C3E978 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B65CCE8B25F40A2400C3E978 /* MarioKart_GesturesLabUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MarioKart_GesturesLabUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B65CCE8F25F40A2400C3E978 /* MarioKart_GesturesLabUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarioKart_GesturesLabUITests.swift; sourceTree = "<group>"; };
+		B65CCE9125F40A2400C3E978 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B65CCE6725F40A1800C3E978 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B65CCE7D25F40A2400C3E978 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B65CCE8825F40A2400C3E978 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B65CCE6125F40A1800C3E978 = {
+			isa = PBXGroup;
+			children = (
+				B65CCE6C25F40A1800C3E978 /* MarioKart_GesturesLab */,
+				B65CCE8325F40A2400C3E978 /* MarioKart_GesturesLabTests */,
+				B65CCE8E25F40A2400C3E978 /* MarioKart_GesturesLabUITests */,
+				B65CCE6B25F40A1800C3E978 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B65CCE6B25F40A1800C3E978 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B65CCE6A25F40A1800C3E978 /* MarioKart_GesturesLab.app */,
+				B65CCE8025F40A2400C3E978 /* MarioKart_GesturesLabTests.xctest */,
+				B65CCE8B25F40A2400C3E978 /* MarioKart_GesturesLabUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B65CCE6C25F40A1800C3E978 /* MarioKart_GesturesLab */ = {
+			isa = PBXGroup;
+			children = (
+				B65CCE6D25F40A1800C3E978 /* AppDelegate.swift */,
+				B65CCE6F25F40A1800C3E978 /* SceneDelegate.swift */,
+				B65CCE7125F40A1800C3E978 /* ViewController.swift */,
+				B65CCE7325F40A1800C3E978 /* Main.storyboard */,
+				B65CCE7625F40A2300C3E978 /* Assets.xcassets */,
+				B65CCE7825F40A2300C3E978 /* LaunchScreen.storyboard */,
+				B65CCE7B25F40A2300C3E978 /* Info.plist */,
+			);
+			path = MarioKart_GesturesLab;
+			sourceTree = "<group>";
+		};
+		B65CCE8325F40A2400C3E978 /* MarioKart_GesturesLabTests */ = {
+			isa = PBXGroup;
+			children = (
+				B65CCE8425F40A2400C3E978 /* MarioKart_GesturesLabTests.swift */,
+				B65CCE8625F40A2400C3E978 /* Info.plist */,
+			);
+			path = MarioKart_GesturesLabTests;
+			sourceTree = "<group>";
+		};
+		B65CCE8E25F40A2400C3E978 /* MarioKart_GesturesLabUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B65CCE8F25F40A2400C3E978 /* MarioKart_GesturesLabUITests.swift */,
+				B65CCE9125F40A2400C3E978 /* Info.plist */,
+			);
+			path = MarioKart_GesturesLabUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B65CCE6925F40A1800C3E978 /* MarioKart_GesturesLab */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B65CCE9425F40A2400C3E978 /* Build configuration list for PBXNativeTarget "MarioKart_GesturesLab" */;
+			buildPhases = (
+				B65CCE6625F40A1800C3E978 /* Sources */,
+				B65CCE6725F40A1800C3E978 /* Frameworks */,
+				B65CCE6825F40A1800C3E978 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MarioKart_GesturesLab;
+			productName = MarioKart_GesturesLab;
+			productReference = B65CCE6A25F40A1800C3E978 /* MarioKart_GesturesLab.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B65CCE7F25F40A2400C3E978 /* MarioKart_GesturesLabTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B65CCE9725F40A2400C3E978 /* Build configuration list for PBXNativeTarget "MarioKart_GesturesLabTests" */;
+			buildPhases = (
+				B65CCE7C25F40A2400C3E978 /* Sources */,
+				B65CCE7D25F40A2400C3E978 /* Frameworks */,
+				B65CCE7E25F40A2400C3E978 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B65CCE8225F40A2400C3E978 /* PBXTargetDependency */,
+			);
+			name = MarioKart_GesturesLabTests;
+			productName = MarioKart_GesturesLabTests;
+			productReference = B65CCE8025F40A2400C3E978 /* MarioKart_GesturesLabTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B65CCE8A25F40A2400C3E978 /* MarioKart_GesturesLabUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B65CCE9A25F40A2400C3E978 /* Build configuration list for PBXNativeTarget "MarioKart_GesturesLabUITests" */;
+			buildPhases = (
+				B65CCE8725F40A2400C3E978 /* Sources */,
+				B65CCE8825F40A2400C3E978 /* Frameworks */,
+				B65CCE8925F40A2400C3E978 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B65CCE8D25F40A2400C3E978 /* PBXTargetDependency */,
+			);
+			name = MarioKart_GesturesLabUITests;
+			productName = MarioKart_GesturesLabUITests;
+			productReference = B65CCE8B25F40A2400C3E978 /* MarioKart_GesturesLabUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B65CCE6225F40A1800C3E978 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					B65CCE6925F40A1800C3E978 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					B65CCE7F25F40A2400C3E978 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = B65CCE6925F40A1800C3E978;
+					};
+					B65CCE8A25F40A2400C3E978 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = B65CCE6925F40A1800C3E978;
+					};
+				};
+			};
+			buildConfigurationList = B65CCE6525F40A1800C3E978 /* Build configuration list for PBXProject "MarioKart_GesturesLab" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B65CCE6125F40A1800C3E978;
+			productRefGroup = B65CCE6B25F40A1800C3E978 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B65CCE6925F40A1800C3E978 /* MarioKart_GesturesLab */,
+				B65CCE7F25F40A2400C3E978 /* MarioKart_GesturesLabTests */,
+				B65CCE8A25F40A2400C3E978 /* MarioKart_GesturesLabUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B65CCE6825F40A1800C3E978 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B65CCE7A25F40A2300C3E978 /* LaunchScreen.storyboard in Resources */,
+				B65CCE7725F40A2300C3E978 /* Assets.xcassets in Resources */,
+				B65CCE7525F40A1800C3E978 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B65CCE7E25F40A2400C3E978 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B65CCE8925F40A2400C3E978 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B65CCE6625F40A1800C3E978 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B65CCE7225F40A1800C3E978 /* ViewController.swift in Sources */,
+				B65CCE6E25F40A1800C3E978 /* AppDelegate.swift in Sources */,
+				B65CCE7025F40A1800C3E978 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B65CCE7C25F40A2400C3E978 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B65CCE8525F40A2400C3E978 /* MarioKart_GesturesLabTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B65CCE8725F40A2400C3E978 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B65CCE9025F40A2400C3E978 /* MarioKart_GesturesLabUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B65CCE8225F40A2400C3E978 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B65CCE6925F40A1800C3E978 /* MarioKart_GesturesLab */;
+			targetProxy = B65CCE8125F40A2400C3E978 /* PBXContainerItemProxy */;
+		};
+		B65CCE8D25F40A2400C3E978 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B65CCE6925F40A1800C3E978 /* MarioKart_GesturesLab */;
+			targetProxy = B65CCE8C25F40A2400C3E978 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B65CCE7325F40A1800C3E978 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B65CCE7425F40A1800C3E978 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B65CCE7825F40A2300C3E978 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B65CCE7925F40A2300C3E978 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B65CCE9225F40A2400C3E978 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B65CCE9325F40A2400C3E978 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B65CCE9525F40A2400C3E978 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UW3HYL52NX;
+				INFOPLIST_FILE = MarioKart_GesturesLab/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "memo.com.MarioKart-GesturesLab";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B65CCE9625F40A2400C3E978 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UW3HYL52NX;
+				INFOPLIST_FILE = MarioKart_GesturesLab/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "memo.com.MarioKart-GesturesLab";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B65CCE9825F40A2400C3E978 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UW3HYL52NX;
+				INFOPLIST_FILE = MarioKart_GesturesLabTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "memo.com.MarioKart-GesturesLabTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MarioKart_GesturesLab.app/MarioKart_GesturesLab";
+			};
+			name = Debug;
+		};
+		B65CCE9925F40A2400C3E978 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UW3HYL52NX;
+				INFOPLIST_FILE = MarioKart_GesturesLabTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "memo.com.MarioKart-GesturesLabTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MarioKart_GesturesLab.app/MarioKart_GesturesLab";
+			};
+			name = Release;
+		};
+		B65CCE9B25F40A2400C3E978 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UW3HYL52NX;
+				INFOPLIST_FILE = MarioKart_GesturesLabUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "memo.com.MarioKart-GesturesLabUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MarioKart_GesturesLab;
+			};
+			name = Debug;
+		};
+		B65CCE9C25F40A2400C3E978 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UW3HYL52NX;
+				INFOPLIST_FILE = MarioKart_GesturesLabUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "memo.com.MarioKart-GesturesLabUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MarioKart_GesturesLab;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B65CCE6525F40A1800C3E978 /* Build configuration list for PBXProject "MarioKart_GesturesLab" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B65CCE9225F40A2400C3E978 /* Debug */,
+				B65CCE9325F40A2400C3E978 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B65CCE9425F40A2400C3E978 /* Build configuration list for PBXNativeTarget "MarioKart_GesturesLab" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B65CCE9525F40A2400C3E978 /* Debug */,
+				B65CCE9625F40A2400C3E978 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B65CCE9725F40A2400C3E978 /* Build configuration list for PBXNativeTarget "MarioKart_GesturesLabTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B65CCE9825F40A2400C3E978 /* Debug */,
+				B65CCE9925F40A2400C3E978 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B65CCE9A25F40A2400C3E978 /* Build configuration list for PBXNativeTarget "MarioKart_GesturesLabUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B65CCE9B25F40A2400C3E978 /* Debug */,
+				B65CCE9C25F40A2400C3E978 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B65CCE6225F40A1800C3E978 /* Project object */;
+}
